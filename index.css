@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background: url("bg1.jpg") no-repeat center center fixed;
+    background-size:cover ;
+    /* background-size:100%vw 100%vh ; */
+}
+
+.container{
+    /* border:2px solid white; */
+    color: white;
+    position: absolute;
+    top:12%;
+    left:40%;
+}
+
+.container h1{
+    width:50%;
+    display: inline-block;
+    font-size:40px;
+    border-bottom: 5px solid rgb(75, 188, 230);
+    margin-bottom: 12px;
+    padding: 10px 0px;
+}
+
+.box{
+    width:100%;
+    /* margin:12px 0px; */
+    border-bottom:2px solid rgb(75, 188, 230);
+}
+
+.box input{
+    background: none;
+    width:75%;
+    margin:12px 0px;
+    padding: 3px 10px;
+    font-size:23px;
+    border:none;
+    outline:none;
+    color:white;
+}
+
+.box i{
+    width:25px;
+  /* padding: 0px 12px; */
+    text-align: center;
+}
+
+.btn{
+cursor:pointer;
+outline: none;
+/* width:25%; */
+margin:12px 0px;
+padding:10px 21px;
+border:2px solid rgb(75, 188, 230);
+border-radius: 10px;
+font-size: 18px;
+background: none;
+color:white;
+font-weight: bold;
+}
+
+.btn:hover{
+    opacity:0.7;
+    color:rgb(75, 188, 230);
+    background: white;
+}
